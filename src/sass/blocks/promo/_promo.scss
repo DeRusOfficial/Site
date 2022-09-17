@@ -1,0 +1,180 @@
+.promo {
+    width: 100%;
+    height: 100vh;
+    background-color: #303030;
+    display: none;
+    &__grid-container {
+        display: grid;
+        grid-template-columns: 33% 33% 34%;
+        grid-template-rows: 33vh 33vh 34vh;
+    }
+    &__logo {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+        margin-top: 25px;
+        justify-self: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        height: 100px;
+        border-radius: 100%;
+        border: 1px solid #D558E5;
+        background-color: rgba(#D558E5, 0.1);
+        font-family: 'Great Vibes';
+        color: #8F00FF;
+        text-shadow: 0 0 5px #ffffff;
+    }
+    &__skills {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        padding-top: 25px;
+        justify-self: start;
+        &_title {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 300px;
+            height: 50px;
+            border-radius: 5px;
+            border: 1px solid #68B8E5;
+            background-color: rgba(#68B8E5, 0.1);
+            font-family: 'Pattaya';
+            font-size: 24px;
+            color: #000000;
+            text-shadow: 0 0 5px #ffffff;
+            cursor: pointer;
+            transition: all 0.6s;
+            &:hover {
+                background-color: rgba(#68B8E5, 0.7);
+            }
+        }
+        &_subtitle {
+            margin: 0 auto;
+            margin-top: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 200px;
+            height: 30px;
+            border-radius: 5px;
+            border: 1px solid #68B8E5;
+            background-color: rgba(#ffffff, 0.1);
+            font-family: 'Marck Script';
+            font-size: 18px;
+            color: #000000;
+            text-shadow: 0 0 5px #ffffff;
+        }
+    }
+    &__aboutMe {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+        justify-self: center;
+        align-self:center;
+        &_title {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 350px;
+            height: 50px;
+            border-radius: 5px;
+            border: 1px solid #D558E5;
+            background-color: rgba(#D558E5, 0.1);
+            font-family: 'Pattaya';
+            font-size: 24px;
+            color: #000000;
+            text-shadow: 0 0 5px #ffffff;
+            cursor: pointer;
+            transition: all 0.6s;
+            &:hover {
+                background-color: rgba(#D558E5, 0.7);
+            }
+        }
+        &_subtitle {
+            margin: 0 auto;
+            margin-top: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 250px;
+            height: 30px;
+            border-radius: 5px;
+            border: 1px solid #D558E5;
+            background-color: rgba(#ffffff, 0.1);
+            font-family: 'Marck Script';
+            font-size: 18px;
+            color: #000000;
+            text-shadow: 0 0 5px #ffffff;
+        }
+    }
+    &__projects {
+        grid-column: 3 / 4;
+        grid-row: 3 / 4;
+        justify-self: end;
+        align-self: end;
+        padding-bottom: 25px;
+        &_title {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 300px;
+            height: 50px;
+            border-radius: 5px;
+            border: 1px solid #CC3A66;
+            background-color: rgba(#CC3A66, 0.1);
+            font-family: 'Pattaya';
+            font-size: 24px;
+            color: #000000;
+            text-shadow: 0 0 5px #ffffff;
+        }
+        &_subtitle {
+            margin: 0 auto;
+            margin-top: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 200px;
+            height: 30px;
+            border-radius: 5px;
+            border: 1px solid #CC3A66;
+            background-color: rgba(#ffffff, 0.1);
+            font-family: 'Marck Script';
+            font-size: 18px;
+            color: #000000;
+            text-shadow: 0 0 5px #ffffff;
+        }
+    }
+    &__triangle {
+        position: relative;
+        width: 145px;
+        height: 45px;
+        grid-column: 3 / 4;
+        grid-row: 1 / 2;
+        padding-top: 25px;
+        justify-self: end;
+        display: flex;
+        &_mid {
+            position: relative;
+            transform: rotate(180deg);
+            top: -4px;
+        }
+    }
+    &__rectangle {
+        width: 200px;
+        height: 160px;
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+        justify-self: start;
+        align-self: end;
+        padding-bottom: 25px;
+        &_2 {
+            margin-top: 15px;
+        }
+        &_3 {
+            margin-top: 15px;
+        }
+        &_4 {
+            margin-top: 15px;
+        }
+    }
+}

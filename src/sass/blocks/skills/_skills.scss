@@ -1,0 +1,179 @@
+.skills {
+    width: 100%;
+    height: 100vh;
+    background-color: #303030;
+    display: none;
+    &__grid-container {
+        display: grid;
+        grid-template-columns: 23% 18% 18% 18% 23%;
+        grid-template-rows: 33vh 33vh 34vh;
+    }
+    &__language {
+        &_tiAndHtml {
+            display: grid;
+            grid-template-columns: 30% 70%;
+        }
+        &_title {
+            justify-self: start;
+            align-self: center;
+            font-family: 'Pattaya';
+            font-size: 24px;
+            color: #ffffff;
+            transform: rotate(-90deg);
+        }
+        &_html {
+            width: 150px;
+            height: 150px;
+            align-self: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 5px;
+            background-color: #ffffff;
+            font-family: 'Marck Script';
+            font-size: 24px;
+        }
+
+        &_css {
+            grid-column: 2 / 3;
+            grid-row: 1 / 2;
+            justify-self: center;
+            align-self: center;
+            width: 150px;
+            height: 150px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 5px;
+            background-color: #ffffff;
+            font-family: 'Marck Script';
+            font-size: 24px;
+        }
+        &_js {
+            grid-column: 3 / 4;
+            grid-row: 1 / 2;
+            justify-self: center;
+            align-self: center;
+            width: 150px;
+            height: 150px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 5px;
+            background-color: #ffffff;
+            font-family: 'Marck Script';
+            font-size: 24px;
+        }
+        &_soon {
+            grid-column: 4 / 5;
+            grid-row: 1 / 2;
+            justify-self: center;
+            align-self: center;
+            width: 150px;
+            height: 150px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 5px;
+            background-color: #ffffff;
+            font-family: 'Marck Script';
+            font-size: 24px;
+        }
+    }
+
+    &__design {
+        &_title {
+            grid-column: 1 / 2;
+            grid-row: 2 / 3;
+            justify-self: start;
+            align-self: center;
+            font-family: 'Pattaya';
+            font-size: 24px;
+            color: #ffffff;
+            transform: rotate(-90deg);
+        }
+        &_figma {
+            grid-column: 2 / 3;
+            grid-row: 2 / 3;
+            justify-self: center;
+            align-self: center;
+            width: 150px;
+            height: 150px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 5px;
+            background-color: #ffffff;
+            font-family: 'Marck Script';
+            font-size: 24px;
+        }
+        &_soon {
+            grid-column: 3 / 4;
+            grid-row: 2 / 3;
+            justify-self: center;
+            align-self: center;
+            width: 150px;
+            height: 150px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 5px;
+            background-color: #ffffff;
+            font-family: 'Marck Script';
+            font-size: 24px;
+        }
+    }
+
+    &__other {
+        grid-column: 3 / 5;
+        grid-row: 3 / 4;
+        justify-self: center;
+        align-self: center;
+        width: 350px;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        background-color: #ffffff;
+        font-family: 'Marck Script';
+        font-size: 24px;
+    }
+
+
+
+    &__triangle {
+        padding-top: 25px;
+        position: relative;
+        width: 145px;
+        height: 45px;
+        display: flex;
+        grid-column: 5 / 6;
+        grid-row: 1 / 2;
+        justify-self: end;
+        align-self: start;
+        &_mid {
+            position: relative;
+            transform: rotate(180deg);
+            top: -4px;
+        }
+    }
+    &__rectangle {
+        width: 200px;
+        height: 160px;
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+        justify-self: start;
+        align-self: end;
+        padding-bottom: 25px;
+        &_2 {
+            margin-top: 15px;
+        }
+        &_3 {
+            margin-top: 15px;
+        }
+        &_4 {
+            margin-top: 15px;
+        }
+    }
+}
